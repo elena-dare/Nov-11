@@ -13,6 +13,8 @@
 		79420DA71A19173700DEA22C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79420DA61A19173700DEA22C /* Images.xcassets */; };
 		79420DAA1A19173700DEA22C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79420DA81A19173700DEA22C /* LaunchScreen.xib */; };
 		79420DB61A19173700DEA22C /* Nov_11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79420DB51A19173700DEA22C /* Nov_11Tests.swift */; };
+		79420DC01A19174B00DEA22C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79420DBF1A19174B00DEA22C /* View.swift */; };
+		79420DC21A19175C00DEA22C /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79420DC11A19175C00DEA22C /* Face.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		79420DAF1A19173700DEA22C /* Nov 11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nov 11Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79420DB41A19173700DEA22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79420DB51A19173700DEA22C /* Nov_11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nov_11Tests.swift; sourceTree = "<group>"; };
+		79420DBF1A19174B00DEA22C /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		79420DC11A19175C00DEA22C /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				79420D9F1A19173700DEA22C /* AppDelegate.swift */,
 				79420DA11A19173700DEA22C /* ViewController.swift */,
+				79420DBF1A19174B00DEA22C /* View.swift */,
+				79420DC11A19175C00DEA22C /* Face.swift */,
 				79420DA31A19173700DEA22C /* Main.storyboard */,
 				79420DA61A19173700DEA22C /* Images.xcassets */,
 				79420DA81A19173700DEA22C /* LaunchScreen.xib */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79420DC21A19175C00DEA22C /* Face.swift in Sources */,
 				79420DA21A19173700DEA22C /* ViewController.swift in Sources */,
 				79420DA01A19173700DEA22C /* AppDelegate.swift in Sources */,
+				79420DC01A19174B00DEA22C /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
